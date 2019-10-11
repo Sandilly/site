@@ -5,8 +5,19 @@ let Navigation = {
                 <div class="container">
                     <div class="navbar-brand">
                         <a class="navbar-item" href="/#/">
-                            <img src="https://png.pngtree.com/element_our/20190528/ourlarge/pngtree-small-url-icon-opened-on-the-computer-image_1132275.jpg" />
+                            Sandy's Page
                         </a>
+                    </div>
+                    <div class="navbar-menu">
+                        <ul>
+                            <li>Portfolio</li>
+                            <li>About</li>
+                        </ul>
+                    </div>
+                    <div class="navbar-form">
+                        <ul>
+                            <li>Contact</li>
+                        </ul>
                     </div>
                 </div>
             </nav>
