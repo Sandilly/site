@@ -1,8 +1,9 @@
 import Home from './views/pages/Home.js';
 import About from './views/pages/About.js';
 import Error404 from './views/pages/Error404.js';
-import PostShow from './views/pages/PostShow.js';
+import Portfolio from './views/pages/Portfolio.js';
 import Contact from '/views/pages/Contact.js';
+import Piece from '/views/pages/Piece.js'
 
 import Navigation from './views/components/Navigation.js';
 import Footer  from './views/components/Footer.js';
@@ -13,7 +14,8 @@ import Utils from './services/Utils.js'
 const routes = {
     '/' : Home,
     '/about' : About,
-    '/p/:id' : PostShow,
+    '/portfolio' : Portfolio,
+    '/portfolio/:id' : Piece,
     '/contact' : Contact
 };
 
