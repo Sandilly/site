@@ -5,8 +5,20 @@ let Navigation = {
                 <div class="container">
                     <div class="navbar-brand">
                         <a class="navbar-item" href="/#/">
-                            <img src="https://png.pngtree.com/element_our/20190528/ourlarge/pngtree-small-url-icon-opened-on-the-computer-image_1132275.jpg" />
+                            <img src="https://thelogo.shop/wp-content/uploads/2016/12/11-Letter-S.png" />
                         </a>
+                    </div>
+                    <div class="navbar-menu">
+                        <ul>
+                            <li>
+                                <a href="/#/portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="/#/about">About</a>
+                            </li>
+                            <li><a href="/#/contact">Contact</a></li>
+
+                        </ul>                
                     </div>
                 </div>
             </nav>
