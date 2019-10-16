@@ -1,6 +1,5 @@
 let Utils = {
     parseReqUrl: () => {
-        debugger;
         let url = location.hash.slice(1).toLowerCase() || '/';
         let r = url.split("/");
         let request = {
