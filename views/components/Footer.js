@@ -4,7 +4,7 @@ let Footer = {
             <footer class="footer">
                 <div class="content">
                     <p>
-                        SANDY M. LIAO
+                        sandilly.github.io &copy; 2019
                     </p>
                 </div>
             </footer>

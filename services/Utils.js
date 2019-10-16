@@ -13,6 +13,24 @@ let Utils = {
         request.verb = r[3];
 
         return request;
+    }, 
+    getApiJson: async (apiUrl) => {
+        const options = {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        };
+
+        try {
+            const response = await fetch(apiUrl, options);
+            const json = await response.json();
+
+            return json;
+
+        } catch(err) {
+            console.log("Error getting items.", err);
+        }
     }
 };
 
