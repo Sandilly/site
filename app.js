@@ -3,7 +3,7 @@ import About from './views/pages/About.js';
 import Error404 from './views/pages/Error404.js';
 import Portfolio from './views/pages/Portfolio.js';
 import Contact from '/views/pages/Contact.js';
-import Piece from '/views/pages/Piece.js'
+import Item from '/views/pages/Item.js'
 
 import Navigation from './views/components/Navigation.js';
 import Footer  from './views/components/Footer.js';
@@ -15,7 +15,7 @@ const routes = {
     '/' : Home,
     '/about' : About,
     '/portfolio' : Portfolio,
-    '/portfolio/:id' : Piece,
+    '/portfolio/:id' : Item,
     '/contact' : Contact
 };
 
